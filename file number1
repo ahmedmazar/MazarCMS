@@ -34,7 +34,7 @@ class OVXException(Exception):
         self.tenantId = tenantId
 
     def __str__(self):
-        return '%s (%s)' % (self.msg, self.code)
+         return '%s (%s)' % (self.msg, self.code)
 
 class EmbedderException(Exception):
     def __init__(self, code, msg):
